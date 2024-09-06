@@ -94,26 +94,26 @@
         },
 
         {
-            "name": "Learning 04 (Homework)",
-            "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build-prepare-Learning04",
-            "program": "${workspaceFolder}/prepare/Learning04/bin/Debug/net8.0/Learning04.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/prepare/Learning04",
-            "console": "integratedTerminal",
-            "internalConsoleOptions": "neverOpen",
-            "stopAtEntry": false
-        },
-
-        {
-            "name": "Learning 05 (Shapes)",
+            "name": "Learning 05 (Homework)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-prepare-Learning05",
             "program": "${workspaceFolder}/prepare/Learning05/bin/Debug/net8.0/Learning05.dll",
             "args": [],
             "cwd": "${workspaceFolder}/prepare/Learning05",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Learning 06 (Shapes)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-prepare-Learning06",
+            "program": "${workspaceFolder}/prepare/Learning06/bin/Debug/net8.0/Learning06.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/prepare/Learning06",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false

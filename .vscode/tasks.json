@@ -95,12 +95,12 @@
         },
 
         {
-            "label": "build-prepare-Learning04",
+            "label": "build-prepare-Learning05",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/prepare/Learning04/Learning04.csproj",
+                "${workspaceFolder}/prepare/Learning05/Learning05.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -108,12 +108,12 @@
         },
 
         {
-            "label": "build-prepare-Learning05",
+            "label": "build-prepare-Learning06",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/prepare/Learning05/Learning05.csproj",
+                "${workspaceFolder}/prepare/Learning06/Learning06.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],

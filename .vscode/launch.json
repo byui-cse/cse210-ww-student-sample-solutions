@@ -2,123 +2,227 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
-            "name": "C# Prep 1",
+            "name": "Sandbox Project",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-csharp-prep-Prep1",
-            "program": "${workspaceFolder}/csharp-prep/Prep1/bin/Debug/net8.0/Prep1.dll",
+            "preLaunchTask": "build-sandbox-Sandbox",
+            "program": "${workspaceFolder}/sandbox/Sandbox/bin/Debug/net8.0/Sandbox.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/csharp-prep/Prep1",
+            "cwd": "${workspaceFolder}/sandbox/Sandbox",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
 
         {
-            "name": "C# Prep 2",
+            "name": "Week 01: C# Exercise 1",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-csharp-prep-Prep2",
-            "program": "${workspaceFolder}/csharp-prep/Prep2/bin/Debug/net8.0/Prep2.dll",
+            "preLaunchTask": "build-week01-Exercise1",
+            "program": "${workspaceFolder}/week01/Exercise1/bin/Debug/net8.0/Exercise1.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/csharp-prep/Prep2",
+            "cwd": "${workspaceFolder}/week01/Exercise1",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
 
         {
-            "name": "C# Prep 3",
+            "name": "Week 01: C# Exercise 2",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-csharp-prep-Prep3",
-            "program": "${workspaceFolder}/csharp-prep/Prep3/bin/Debug/net8.0/Prep3.dll",
+            "preLaunchTask": "build-week01-Exercise2",
+            "program": "${workspaceFolder}/week01/Exercise2/bin/Debug/net8.0/Exercise2.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/csharp-prep/Prep3",
+            "cwd": "${workspaceFolder}/week01/Exercise2",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
 
         {
-            "name": "C# Prep 4",
+            "name": "Week 01: C# Exercise 3",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-csharp-prep-Prep4",
-            "program": "${workspaceFolder}/csharp-prep/Prep4/bin/Debug/net8.0/Prep4.dll",
+            "preLaunchTask": "build-week01-Exercise3",
+            "program": "${workspaceFolder}/week01/Exercise3/bin/Debug/net8.0/Exercise3.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/csharp-prep/Prep4",
+            "cwd": "${workspaceFolder}/week01/Exercise3",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
 
         {
-            "name": "C# Prep 5",
+            "name": "Week 01: C# Exercise 4",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-csharp-prep-Prep5",
-            "program": "${workspaceFolder}/csharp-prep/Prep5/bin/Debug/net8.0/Prep5.dll",
+            "preLaunchTask": "build-week01-Exercise4",
+            "program": "${workspaceFolder}/week01/Exercise4/bin/Debug/net8.0/Exercise4.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/csharp-prep/Prep5",
+            "cwd": "${workspaceFolder}/week01/Exercise4",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
 
         {
-            "name": "Learning 02 (Resume)",
+            "name": "Week 01: C# Exercise 5",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-prepare-Learning02",
-            "program": "${workspaceFolder}/prepare/Learning02/bin/Debug/net8.0/Learning02.dll",
+            "preLaunchTask": "build-week01-Exercise5",
+            "program": "${workspaceFolder}/week01/Exercise5/bin/Debug/net8.0/Exercise5.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/prepare/Learning02",
+            "cwd": "${workspaceFolder}/week01/Exercise5",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
 
         {
-            "name": "Learning 03 (Fraction)",
+            "name": "Week 02: Resumes",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-prepare-Learning03",
-            "program": "${workspaceFolder}/prepare/Learning03/bin/Debug/net8.0/Learning03.dll",
+            "preLaunchTask": "build-week02-Resumes",
+            "program": "${workspaceFolder}/week02/Resumes/bin/Debug/net8.0/Resumes.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/prepare/Learning03",
+            "cwd": "${workspaceFolder}/week02/Resumes",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
 
         {
-            "name": "Learning 04 (Homework)",
+            "name": "Week 02: Journal",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-prepare-Learning04",
-            "program": "${workspaceFolder}/prepare/Learning04/bin/Debug/net8.0/Learning04.dll",
+            "preLaunchTask": "build-week02-Journal",
+            "program": "${workspaceFolder}/week02/Journal/bin/Debug/net8.0/Journal.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/prepare/Learning04",
+            "cwd": "${workspaceFolder}/week02/Journal",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
 
         {
-            "name": "Learning 05 (Shapes)",
+            "name": "Week 03: Fractions",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-prepare-Learning05",
-            "program": "${workspaceFolder}/prepare/Learning05/bin/Debug/net8.0/Learning05.dll",
+            "preLaunchTask": "build-week03-Fractions",
+            "program": "${workspaceFolder}/week03/Fractions/bin/Debug/net8.0/Fractions.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/prepare/Learning05",
+            "cwd": "${workspaceFolder}/week03/Fractions",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
 
+        {
+            "name": "Week 03: Scripture Memorizer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-week03-ScriptureMemorizer",
+            "program": "${workspaceFolder}/week03/ScriptureMemorizer/bin/Debug/net8.0/ScriptureMemorizer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/week03/ScriptureMemorizer",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Week 04: YouTube Videos",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-week04-YouTubeVideos",
+            "program": "${workspaceFolder}/week04/YouTubeVideos/bin/Debug/net8.0/YouTubeVideos.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/week04/YouTubeVideos",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Week 04: Online Ordering",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-week04-OnlineOrdering",
+            "program": "${workspaceFolder}/week04/OnlineOrdering/bin/Debug/net8.0/OnlineOrdering.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/week04/OnlineOrdering",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Week 05: Homework",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-week05-Homework",
+            "program": "${workspaceFolder}/week05/Homework/bin/Debug/net8.0/Homework.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/week05/Homework",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Week 05: Mindfulness",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-week05-Mindfulness",
+            "program": "${workspaceFolder}/week05/Mindfulness/bin/Debug/net8.0/Mindfulness.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/week05/Mindfulness",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Week 06: Shapes",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-week06-Shapes",
+            "program": "${workspaceFolder}/week06/Shapes/bin/Debug/net8.0/Shapes.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/week06/Shapes",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Week 06: Eternal Quest",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-week06-EternalQuest",
+            "program": "${workspaceFolder}/week06/EternalQuest/bin/Debug/net8.0/EternalQuest.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/week06/EternalQuest",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Week 07: Exercise Tracking",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-week07-ExerciseTracking",
+            "program": "${workspaceFolder}/week07/ExerciseTracking/bin/Debug/net8.0/ExerciseTracking.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/week07/ExerciseTracking",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
 
     ]
 }

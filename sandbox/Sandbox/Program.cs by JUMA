@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello World! This is the Sandbox Project.");
+        
+        Console.WriteLine(" what is your first name ?");
+        String first = console.ReadLine();
+        
+        Console.WriteLine(" what is your last name ?");
+        String last = console.ReadLine();
+
+        Console.WriteLine($"Your name is {last}, {first}.");
+    }
+}

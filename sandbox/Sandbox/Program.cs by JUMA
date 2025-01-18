@@ -1,5 +1,7 @@
 using System;
 
+// First exercice
+
 class Program
 {
     static void Main(string[] args)
@@ -15,6 +17,9 @@ class Program
         Console.WriteLine($"Your name is {last}, {first}.");
     }
 }
+
+// Second exercice
+
 
 class Program
 {
@@ -55,4 +60,43 @@ class Program
       
      }
     }
+}
+
+// Exercice 3
+
+class Program
+{
+static void Main(string[] args)
+ {
+  Console.WriteLine(" Welcome to the magic name game ");
+
+ 
+  int magicname = console.ReadLine();
+  Random randomGenerator = new Random();
+
+  int magicNumber = randomGenerator.Next(1, 101);
+  int found = -1; 
+
+  While (found != magicNumber)
+  {
+   Console.WriteLine(" Please what is the magic name ? "); 
+   found = int.Parse(Console.ReadLine());
+
+    if (found > magicNumber)
+    {
+      Console.WriteLine(" your guess is lower ");  
+    }
+
+    else if (found < magicNumber)
+    {
+      Console.WriteLine(" your guess is higher ");  
+    }
+
+     else 
+    {
+      Console.WriteLine(" congratulation you have found the real number ");  
+    }
+  }
+
+ }
 }

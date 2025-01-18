@@ -15,3 +15,44 @@ class Program
         Console.WriteLine($"Your name is {last}, {first}.");
     }
 }
+
+class Program
+{
+    static void Main(string[] args)
+    {
+     Console.WriteLine(" what is your grade ?");
+     String grade = console.ReadLine();
+
+     if letter (grade >= 90 )
+     {
+      Console.WriteLine(" A ");
+      String letter = console.ReadLine();
+      Console.WriteLine($" Congratulation you have succed, you have got a : {letter} ");
+     }
+     else if (grade >= 80)
+     {
+      Console.WriteLine(" B ");
+      String letter = console.ReadLine();
+       Console.WriteLine($" Congratulation you have succed, you have got a : {letter} ");
+     }
+    else if (grade >= 70)
+     {
+      Console.WriteLine(" C ");
+      String letter = console.ReadLine();
+       Console.WriteLine($" Congratulation you have succed, you have got a : {letter} ");
+     }
+    else if (grade >= 60)
+     {
+      Console.WriteLine(" C ");
+      String letter = console.ReadLine();
+      Console.WriteLine($" sorry your grade can not allow you to pass, you have got a : {letter} , please try again later");
+     }
+    else
+     {
+      Console.WriteLine(" C ");
+      String letter = console.ReadLine();
+      Console.WriteLine($" sorry your grade can not allow you to pass, you have got a : {letter} , please try again later");
+      
+     }
+    }
+}

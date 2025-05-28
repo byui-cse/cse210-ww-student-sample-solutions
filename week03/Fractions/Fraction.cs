@@ -5,25 +5,31 @@ public class Fraction
     private int _top;
     private int _bottom;
 
-    public Fraction()
+    public int GetBottom()
     {
-        // Default to 1/1
-        _top = 1;
-        _bottom = 1;
+        return _bottom;
+    }
+    public int GetTop()
+    {
+        return _top;
+    }
+    
+    public void SetBottom(int bottom)
+    {
+        if (bottom <= 0)
+        {
+            Console.WriteLine("ERROR - Bottom cannot be less than or equal to zero.");
+            Environment.Exit(1); // Exit the program if bottom is zero to prevent division by zero errors.
+        }
+        _bottom = bottom;
+        return;
     }
 
-    public Fraction(int wholeNumber)
-    {
-        _top = wholeNumber;
-        _bottom = 1;
-    }
-
-    public Fraction(int top, int bottom)
+    public void SetTop(int top)
     {
         _top = top;
-        _bottom = bottom;
+        return;
     }
-
     public string GetFractionString()
     {
         // Notice that this is not stored as a member variable.
